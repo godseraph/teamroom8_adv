@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="48257BE900503D7C" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="7fa" sequence="227" unid="859F294FC688D8DC80257927002C38B1">
+<created><datetime dst="true">20111012T090300,97+01</datetime></created>
+<modified><datetime>20130924T204559,37+08</datetime></modified>
+<revised><datetime>20130924T204559,36+08</datetime></revised>
+<lastaccessed><datetime>20130924T204559,37+08</datetime></lastaccessed>
+<addedtofile><datetime>20130917T223634,43+08</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name><name>CN=shemin/O=bj-fanuc</name><name>CN=admin/O=xLotusChina</name><name>CN=admin/O=办公平台</name></updatedby>
+<wassignedby><name>CN=admin/O=办公平台</name></wassignedby>
+<item name="$Flags"><text>gC~4;</text></item>
+<item name="$TITLE"><text>mobileViewSubteam.xsp</text></item>
+
+
+
+
+
+<item name="$FileNames" sign="true"><text>mobileViewSubteam.xsp</text></item>
+<item name="$DesignerVersion"><text>8.5</text></item>
+
+
+
+</note>

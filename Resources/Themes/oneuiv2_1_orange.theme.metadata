@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="48257BE900503D7C" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="5fa" sequence="24" unid="EA5931DC875438208025785C00557FD5">
+<created><datetime>20110323T153352,85+00</datetime></created>
+<modified><datetime>20130924T204559,83+08</datetime></modified>
+<revised><datetime>20130924T204559,82+08</datetime></revised>
+<lastaccessed><datetime>20130924T204559,83+08</datetime></lastaccessed>
+<addedtofile><datetime>20130917T223631,87+08</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name><name>CN=admin/O=xLotusChina</name><name>CN=admin/O=办公平台</name></updatedby>
+<wassignedby><name>CN=admin/O=办公平台</name></wassignedby>
+<item name="$Flags"><text>34567Cg~`</text></item>
+<item name="$TITLE" sign="true"><text>oneuiv2_1_orange.theme</text></item>
+<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>oneuiv2_1_orange.theme</text></item>
+<item name="$CSSFiles" sign="true"><textlist><text>oneuiv2_1.css</text><text>stylesIE06.css</text><text>stylesIE78.css</text><text>stylesFF.css</text></textlist></item></note>

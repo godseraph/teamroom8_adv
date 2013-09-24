@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="48257BE900503D7C" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="c7a" sequence="3" unid="2BA6BA384D71791548257BEF004D6B19">
+<created><datetime>20130923T220536,89+08</datetime></created>
+<modified><datetime>20130924T204554,91+08</datetime></modified>
+<revised><datetime>20130924T204554,90+08</datetime></revised>
+<lastaccessed><datetime>20130924T204554,91+08</datetime></lastaccessed>
+<addedtofile><datetime>20130923T220536,93+08</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=admin/O=办公平台</name></updatedby>
+<wassignedby><name>CN=admin/O=办公平台</name></wassignedby>
+<item name="$Flags"><text>gC~4;2P</text></item>
+<item name="$TITLE"><text>ccMovie_zh.properties</text></item>
+
+
+<item name="$FileNames" sign="true"><text>ccMovie_zh.properties</text></item></note>

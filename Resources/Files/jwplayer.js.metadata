@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="48257BE900503D7C" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="d5a" sequence="2" unid="18EFF119E21E7CC848257BF000503363">
+<created><datetime>20130924T223600,35+08</datetime></created>
+<modified><datetime>20130924T223600,41+08</datetime></modified>
+<revised><datetime>20130924T223600,40+08</datetime></revised>
+<lastaccessed><datetime>20130924T223600,41+08</datetime></lastaccessed>
+<addedtofile><datetime>20130924T223600,37+08</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=admin/O=办公平台</name></updatedby>
+<wassignedby><name>CN=admin/O=办公平台</name></wassignedby>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$TITLE"><text>jwplayer.js</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+
+
+<item name="$FileNames" sign="true"><text>jwplayer.js</text></item></note>

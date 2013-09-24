@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+  <faces-config-extension>
+    <namespace-uri>http://www.ibm.com/xsp/custom</namespace-uri>
+    <default-prefix>xc</default-prefix>
+  </faces-config-extension>
+  <composite-component>
+    <component-type>ccMovie</component-type>
+    <composite-name>ccMovie</composite-name>
+    <composite-file>/ccMovie.xsp</composite-file>
+    <composite-extension>
+      <designer-extension>
+        <in-palette>true</in-palette>
+        <render-markup>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#xd;
+&lt;xp:view xmlns:xp="http://www.ibm.com/xsp/core"&gt;&#xd;
+&lt;h1&gt;Download JW Player&lt;/h1&gt;&#xd;
+Please download the following files from &lt;a href="http://www.longtailvideo.com/players/jw-flv-player/"&gt;JW Player&lt;/a&gt; and install under the recommended path in Designer:&#xd;
+&lt;ul&gt;&#xd;
+&lt;li&gt;player.swf (path: Resources\Files)&lt;/li&gt;&#xd;
+&lt;li&gt;swfobjects.js (path: Resources\Files)&lt;/li&gt;&#xd;
+&lt;/ul&gt;&#xd;
+&lt;p&gt;&#xd;
+By downloading, You agree to the &lt;a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"&gt;non-commercial license&lt;/a&gt;.&#xd;
+&lt;/p&gt;&#xd;
+&lt;h2&gt;WHAT ARE YOUR NEXT STEPS?&lt;/h2&gt;&#xd;
+&lt;p&gt;&#xd;
+&lt;strong&gt;Set Up Your Player: &lt;/strong&gt;&#xd;
+&lt;a href="/support/jw-player-setup-wizard"&gt;JW Player Setup Wizard&lt;/a&gt; |&#xd;
+&lt;a href="/support/jw-player/jw-player-for-flash-v5/12/install-the-jw-player-for-flash-v5"&gt;JW Player Setup Instructions&lt;/a&gt; |&#xd;
+&lt;a href="/support/faq"&gt;Frequently Asked Questions&lt;/a&gt;&#xd;
+&lt;/p&gt;&#xd;
+&lt;/xp:view&gt;</render-markup>
+      </designer-extension>
+    </composite-extension>
+    <property>
+      <property-name>source</property-name>
+      <property-class>string</property-class>
+      <display-name>location of the swf source</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>player.swf</default-value>
+        </designer-extension>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>height</property-name>
+      <property-class>int</property-class>
+      <property-extension>
+        <designer-extension>
+          <default-value>320</default-value>
+        </designer-extension>
+      </property-extension>
+      <display-name>the overall height of the player</display-name>
+    </property>
+    <property>
+      <property-name>width</property-name>
+      <property-class>int</property-class>
+      <property-extension>
+        <designer-extension>
+          <default-value>470</default-value>
+        </designer-extension>
+      </property-extension>
+      <display-name>the overall width of the player</display-name>
+    </property>
+    <property>
+      <property-name>playlistfile</property-name>
+      <property-class>string</property-class>
+      <display-name>XML playlist file location</display-name>
+    </property>
+    <property>
+      <property-name>author</property-name>
+      <property-class>string</property-class>
+      <display-name>author of the item</display-name>
+    </property>
+    <property>
+      <property-name>description</property-name>
+      <property-class>string</property-class>
+      <display-name>description of the mediafile</display-name>
+    </property>
+    <property>
+      <property-name>duration</property-name>
+      <property-class>string</property-class>
+      <display-name>duration of the mediafile</display-name>
+    </property>
+    <property>
+      <property-name>file</property-name>
+      <property-class>string</property-class>
+      <display-name>location of the movie file</display-name>
+    </property>
+    <property>
+      <property-name>image</property-name>
+      <property-class>string</property-class>
+      <display-name>location of the preview image</display-name>
+    </property>
+    <property>
+      <property-name>start</property-name>
+      <property-class>string</property-class>
+      <display-name>position in seconds where the playback should start</display-name>
+    </property>
+    <property>
+      <property-name>title</property-name>
+      <property-class>string</property-class>
+      <display-name>title of the file to play</display-name>
+    </property>
+    <property>
+      <property-name>fullscreen</property-name>
+      <property-class>boolean</property-class>
+      <property-extension>
+        <designer-extension>
+          <default-value>true</default-value>
+        </designer-extension>
+      </property-extension>
+      <display-name>show option to play movie in fullscreen?</display-name>
+    </property>
+    <property>
+      <property-name>backcolor</property-name>
+      <property-class>string</property-class>
+      <display-name>the background color of the player</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>#FFF</default-value>
+        </designer-extension>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>frontcolor</property-name>
+      <property-class>string</property-class>
+      <display-name>the icon/text color of the player</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>#000</default-value>
+        </designer-extension>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>lightcolor</property-name>
+      <property-class>string</property-class>
+      <display-name>the rollover color of the player</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>#000</default-value>
+        </designer-extension>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>screencolor</property-name>
+      <property-class>string</property-class>
+      <display-name>the display color of the player</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>#000</default-value>
+        </designer-extension>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>controlbar</property-name>
+      <property-class>string</property-class>
+      <property-extension>
+        <designer-extension>
+          <default-value>over</default-value>
+          <editor>com.ibm.workplace.designer.property.editors.comboParameterEditor</editor>
+          <editor-parameter>bottom&#xd;
+top&#xd;
+over&#xd;
+none</editor-parameter>
+        </designer-extension>
+      </property-extension>
+      <display-name>position of the controlbar</display-name>
+      <description>default = bottom</description>
+    </property>
+    <property>
+      <property-name>playlist</property-name>
+      <property-class>string</property-class>
+      <property-extension>
+        <designer-extension>
+          <default-value>none</default-value>
+          <editor>com.ibm.workplace.designer.property.editors.comboParameterEditor</editor>
+          <editor-parameter>none&#xd;
+bottom&#xd;
+over&#xd;
+right&#xd;
+left&#xd;
+top</editor-parameter>
+        </designer-extension>
+        <collection-property>false</collection-property>
+      </property-extension>
+      <display-name>position of the playlist</display-name>
+      <description>default = none</description>
+    </property>
+    <property>
+      <property-name>playlistsize</property-name>
+      <property-class>int</property-class>
+      <display-name>height or width of the playlist</display-name>
+    </property>
+    <property>
+      <property-name>dock</property-name>
+      <property-class>boolean</property-class>
+      <display-name>whether to show a dock</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>true</default-value>
+        </designer-extension>
+      </property-extension>
+      <description>default = true</description>
+    </property>
+    <property>
+      <property-name>skin</property-name>
+      <property-class>string</property-class>
+      <display-name>location of the skin XML file</display-name>
+    </property>
+    <property>
+      <property-name>autostart</property-name>
+      <property-class>boolean</property-class>
+      <property-extension>
+        <designer-extension>
+          <default-value>false</default-value>
+        </designer-extension>
+      </property-extension>
+      <display-name>automatically start playing</display-name>
+      <description>default = false</description>
+    </property>
+    <property>
+      <property-name>bufferlength</property-name>
+      <property-class>int</property-class>
+      <property-extension>
+        <designer-extension>
+          <default-value/>
+        </designer-extension>
+      </property-extension>
+      <display-name>number of seconds to buffer before start playing</display-name>
+    </property>
+    <property>
+      <property-name>icons</property-name>
+      <property-class>boolean</property-class>
+      <display-name>hide the icons in the display</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>true</default-value>
+        </designer-extension>
+      </property-extension>
+      <description>default = true</description>
+    </property>
+    <property>
+      <property-name>item</property-name>
+      <property-class>int</property-class>
+      <display-name>item in the playlist to start</display-name>
+    </property>
+    <property>
+      <property-name>mute</property-name>
+      <property-class>boolean</property-class>
+      <display-name>mute the player on startup</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>false</default-value>
+        </designer-extension>
+      </property-extension>
+      <description>default = false</description>
+    </property>
+    <property>
+      <property-name>quality</property-name>
+      <property-class>boolean</property-class>
+      <display-name>use high-quality playback</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>true</default-value>
+        </designer-extension>
+      </property-extension>
+      <description>default = true</description>
+    </property>
+    <property>
+      <property-name>repeat</property-name>
+      <property-class>string</property-class>
+      <display-name>continously repeat playback</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>none</default-value>
+          <editor>com.ibm.workplace.designer.property.editors.comboParameterEditor</editor>
+          <editor-parameter>none&#xd;
+list&#xd;
+always</editor-parameter>
+        </designer-extension>
+      </property-extension>
+      <description>default = none</description>
+    </property>
+    <property>
+      <property-name>shuffle</property-name>
+      <property-class>boolean</property-class>
+      <display-name>shuffle the playback order</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>false</default-value>
+        </designer-extension>
+      </property-extension>
+      <description>default = false</description>
+    </property>
+    <property>
+      <property-name>stretching</property-name>
+      <property-class>string</property-class>
+      <display-name>resize mode of display content</display-name>
+      <property-extension>
+        <designer-extension>
+          <default-value>uniform</default-value>
+          <editor>com.ibm.workplace.designer.property.editors.comboParameterEditor</editor>
+          <editor-parameter>uniform&#xd;
+fill&#xd;
+exactfit&#xd;
+none</editor-parameter>
+        </designer-extension>
+      </property-extension>
+      <description>default = none</description>
+    </property>
+    <property>
+      <property-name>volume</property-name>
+      <property-class>int</property-class>
+      <display-name>startup volume</display-name>
+      <property-extension/>
+    </property>
+  </composite-component>
+</faces-config>

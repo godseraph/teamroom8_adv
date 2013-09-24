@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+  <managed-bean>
+    <managed-bean-name>CheckboxBean</managed-bean-name>
+    <managed-bean-class>com.ibm.xsp.teamroom.beans.CheckboxBean</managed-bean-class>
+    <managed-bean-scope>view</managed-bean-scope>
+  </managed-bean>
+  <!--AUTOGEN-START-BUILDER：由 IBM Lotus Domino Designer 自动生成。不要修改。-->
+  <application>
+    <locale-config>
+      <default-locale>en</default-locale>
+      <supported-locale>en</supported-locale>
+      <supported-locale>zh</supported-locale>
+    </locale-config>
+  </application>
+  <!--AUTOGEN-END-BUILDER：自动生成区段的结尾-->
+</faces-config>

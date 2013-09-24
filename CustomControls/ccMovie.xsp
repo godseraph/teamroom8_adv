@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+<script type='text/javascript' src='jwplayer.js'></script>
+<div id="mediaspace">The player will be shown soon in this section...</div>
+
+	<xp:scriptBlock id="scriptBlockSWFObject">
+		<xp:this.value><![CDATA[
+var source = "#{javascript:return compositeData.get("source");}";
+var width = "#{javascript:return compositeData.get("width");}";
+var height = "#{javascript:return compositeData.get("height");}";
+
+//PLAYLIST
+var playlistfile = "#{javascript:return compositeData.get("playlistfile");}";
+
+//FILE PROPERTIES
+var author = "#{javascript:return compositeData.get("author");}";
+var description = "#{javascript:return compositeData.get("description");}";
+var duration = "#{javascript:return compositeData.get("duration");}";
+var file = "#{javascript:return compositeData.get("file");}";
+var image = "#{javascript:return compositeData.get("image");}";
+var start = "#{javascript:return compositeData.get("start");}";
+var title = "#{javascript:return compositeData.get("title");}";
+
+//COLORS
+var backcolor = "#{javascript:return compositeData.get("backcolor");}";
+var frontcolor = "#{javascript:return compositeData.get("frontcolor");}";
+var lightcolor = "#{javascript:return compositeData.get("lightcolor");}";
+var screencolor = "#{javascript:return compositeData.get("screencolor");}";
+
+//LAYOUT
+var controlbar = "#{javascript:return compositeData.get("controlbar");}";
+var playlist = "#{javascript:return compositeData.get("playlist");}";
+var playlistsize = "#{javascript:return compositeData.get("playlistsize");}";
+var dock = "#{javascript:return compositeData.get("dock");}";
+var skin = "#{javascript:return compositeData.get("skin");}";
+
+//BEHAVIOUR
+var autostart = "#{javascript:return compositeData.get("autostart");}";
+var bufferlength = "#{javascript:return compositeData.get("bufferlength");}";
+var icons = "#{javascript:return compositeData.get("icons");}";
+var item = "#{javascript:return compositeData.get("item");}";
+var mute = "#{javascript:return compositeData.get("mute");}";
+var quality = "#{javascript:return compositeData.get("quality");}";
+var repeat = "#{javascript:return compositeData.get("repeat");}";
+var shuffle = "#{javascript:return compositeData.get("shuffle");}";
+var stretching = "#{javascript:return compositeData.get("stretching");}";
+var volume = "#{javascript:return compositeData.get("volume");}";
+
+	jwplayer("mediaspace").setup({
+        file: file,
+        image: image
+    });
+]]></xp:this.value>
+	</xp:scriptBlock>
+</xp:view>

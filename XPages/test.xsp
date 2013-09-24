@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom">
+
+	<xc:ccMovie source="player.swf" height="320" width="470"
+		fullscreen="true" backcolor="#FFF" frontcolor="#000" lightcolor="#000"
+		screencolor="#000" controlbar="over" playlist="none" dock="true"
+		autostart="false" icons="true" mute="false" quality="true"
+		repeat="none" shuffle="false" stretching="uniform">
+	</xc:ccMovie></xp:view>

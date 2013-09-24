@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='filter' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='48257BE900503D7C'>
+<noteinfo noteid='206' unid='D774C5CDF2C83C9E802577C2003DF785' sequence='16'>
+<created><datetime dst='true'>20101020T121650,61+01</datetime></created>
+<modified><datetime>20130924T204601,85+08</datetime></modified>
+<revised><datetime>20130924T204601,84+08</datetime></revised>
+<lastaccessed><datetime>20130924T204601,85+08</datetime></lastaccessed>
+<addedtofile><datetime>20130917T223627,75+08</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name><name
+>CN=admin/O=xLotusChina</name><name>CN=admin/O=办公平台</name></updatedby>
+<wassignedby><name>CN=admin/O=办公平台</name></wassignedby>
+<item name='$SiteMapList' sign='true'>
+<rawitemdata type='1a'>
+AQMBAAEAAgBIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAACAEgAbgAAAAAAAQAAAAAAAAAIAAAAXgAAAAAAAAAAAAAAAAAAAAgA
+BQAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRm9ybQDdAQD2/1wAAQAAAAUADgBC
+AAAAAAAAAAAAAAAAAEIAAwAYAAcAJFRhYmxlMQABAAQAZm9ybQMABwAMAAUACTFTM1MAAAASAAIA
+XhsAAAAAAADtAQMABwAKAAMACTBSAAAFRm9ybQDdSABuAAAAAAACAAAAAAAAAAgAAABeAAAAAAAA
+AAAAAAAAAAAACAAFAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVJbmZvAN0BAPb/
+XAABAAAABQAOAEIAAAAAAAAAAAAAAAAAQgADABgABwAkVGFibGUxAAEABABpbmZvAwAHAAwABQAJ
+MVMzUwAAABIAAgBeGwAAAAAAAO0BAwAHAAoAAwAJMFIAAAVJbmZvAN0=
+</rawitemdata></item>
+<item name='$TITLE'><textlist><text>SubscriptionFormOutline</text><text>SubscriptionFormOutline</text></textlist></item>
+<item name='$Flags'><text>m34</text></item>
+<item name='$DesignerVersion' sign='true'><text>6</text></item>
+<item name='$LANGUAGE' sign='true'><text>en</text></item>
+<item name='$POID'><datetime>20130917T223445,38+08</datetime></item></note>
+

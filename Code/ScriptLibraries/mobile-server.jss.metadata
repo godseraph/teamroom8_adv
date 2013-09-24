@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="3.0" replicaid="48257BE900503D7C" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="65a" sequence="28" unid="60E0069B305E6A0C802579170050B7C6">
+<created><datetime dst="true">20110926T154139,26+01</datetime></created>
+<modified><datetime>20130924T204558,31+08</datetime></modified>
+<revised><datetime>20130924T204558,30+08</datetime></revised>
+<lastaccessed><datetime>20130924T204558,31+08</datetime></lastaccessed>
+<addedtofile><datetime>20130917T223632,35+08</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name><name>CN=admin/O=xLotusChina</name><name>CN=admin/O=办公平台</name></updatedby>
+<wassignedby><name>CN=admin/O=办公平台</name></wassignedby>
+<item name="$TITLE" sign="true"><text>mobile-server</text></item>
+<item name="$Flags"><text>.5834Q</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item>
+
+<item name="$POID"><datetime>20130917T223449,30+08</datetime></item></note>
