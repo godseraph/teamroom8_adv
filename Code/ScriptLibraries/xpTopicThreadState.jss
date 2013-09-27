@@ -202,5 +202,15 @@ function TopicThreadState(){
 		return 'edit' == viewScope.TopicThread_state.modifyEditOrNewReply
 			&& row == viewScope.TopicThread_state.modifyPosition;
 	}
+	this.changePlayState = function changePlayState(show){
+		if(show){
+			viewScope.TopicThread_state.showPlayer = true;
+		}else{
+			viewScope.TopicThread_state.showPlayer = null;
+		}
+	}
+	this.isPlayState = function isPlayState(){
+		return (viewScope.TopicThread_state.showPlayer==null)?false:viewScope.TopicThread_state.showPlayer;
+	}
 }
 TopicThreadState = new TopicThreadState();
