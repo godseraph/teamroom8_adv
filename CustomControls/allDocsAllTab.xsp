@@ -189,7 +189,8 @@ catch(e){
 					</xp:this.facets>
 				</xe:switchFacet>
 			</xp:panel>
-			<xe:pagerExpand id="pagerExpand1" xp:key="pagerTopLeft">
+			<xe:pagerExpand id="pagerExpand1" xp:key="pagerTopLeft"
+				expandText="Expand All" collapseText="Collapse All">
 			</xe:pagerExpand>
 			<xp:pager layout="Previous Group Next" id="pager3"
 				xp:key="pagerTopRight" partialRefresh="true"

@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="48257BE900503D7C" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="746" sequence="87" unid="82BE18AA6BE4759D80257917005064E3">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.5" replicaid="48257BF600522126" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="74a" sequence="100" unid="82BE18AA6BE4759D80257917005064E3">
 <created><datetime dst="true">20110926T153807,07+01</datetime></created>
-<modified><datetime>20130924T204601,55+08</datetime></modified>
-<revised><datetime>20130924T204601,54+08</datetime></revised>
-<lastaccessed><datetime>20130924T204601,55+08</datetime></lastaccessed>
-<addedtofile><datetime>20130917T223633,53+08</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name><name>CN=shemin/O=bj-fanuc</name><name>CN=admin/O=xLotusChina</name><name>CN=admin/O=办公平台</name></updatedby>
-<wassignedby><name>CN=admin/O=办公平台</name></wassignedby>
+<modified><datetime>20131002T214526,62+08</datetime></modified>
+<revised><datetime>20131002T214526,61+08</datetime></revised>
+<lastaccessed><datetime>20131002T214526,62+08</datetime></lastaccessed>
+<addedtofile><datetime>20130930T225713,99+08</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=admin/O=R8Dev</name></updatedby>
+<wassignedby><name>CN=admin/O=R8Dev</name></wassignedby>
 <item name="$TITLE"><text>statusReportsViewFooter.xsp</text></item>
 <item name="$Flags"><text>gC~4;</text></item>
+<item name="$DesignerVersion"><text>8.5</text></item>
+
+
+
+
+
 
 
 <item name="$FileNames" sign="true"><text>statusReportsViewFooter.xsp</text></item>
-
-
-
-<item name="$DesignerVersion" sign="true"><text>8.5</text></item>
-
-
 
 </note>

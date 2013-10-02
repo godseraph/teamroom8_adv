@@ -14,7 +14,8 @@
 		<xc:controlPagerArea id="pagerArea">
 			<xp:this.facets>
 				<xe:pagerExpand xp:key="left" id="pagerExpand1"
-					rendered="#{javascript:requestScope.isCollapseExpandable}">
+					rendered="#{javascript:requestScope.isCollapseExpandable}"
+					collapseText="Collapse All" expandText="Expand All">
 				</xe:pagerExpand>
 				<xp:pager layout="Previous Group Next" id="pager3"
 					xp:key="right" partialRefresh="true"

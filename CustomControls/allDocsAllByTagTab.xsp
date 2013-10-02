@@ -168,7 +168,8 @@ catch(e){
 					</xp:this.facets>
 				</xe:switchFacet>
 			</xp:panel>
-			<xe:pagerExpand id="pagerExpand1" xp:key="pagerTopLeft">
+			<xe:pagerExpand id="pagerExpand1" xp:key="pagerTopLeft"
+				collapseText="折叠" expandText="展开">
 			</xe:pagerExpand>
 			<xp:panel xp:key="categoryRow">
 				<xp:text>
